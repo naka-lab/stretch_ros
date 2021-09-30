@@ -16,6 +16,12 @@
 
   <!-- LOCALIZATION -->
   <include file="$(find amcl)/examples/amcl_diff.launch" />
+  <rosparam>
+  amcl:
+    odom_alpha1: 0.8
+    odom_alpha2: 0.8
+    update_min_a: 0.2
+  </rosparam>
 
   <!-- NAVIGATION -->
   <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
