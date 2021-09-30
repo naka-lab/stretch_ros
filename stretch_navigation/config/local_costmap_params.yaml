@@ -19,8 +19,8 @@ local_costmap:
     observation_sources: laser_scan_sensor
     laser_scan_sensor: {sensor_frame: laser, data_type: LaserScan, topic: scan, clearing: true, marking: true}
     max_obstacle_height: 3
-    obstacle_range: 10
-    raytrace_range: 11
+    obstacle_range: 3
+    raytrace_range: 4
 
 
   plugins:
