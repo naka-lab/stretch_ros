@@ -11,7 +11,7 @@ TrajectoryPlannerROS:
     acc_lim_y: 1.0
 
     xy_goal_tolerance: 0.10 
-    yaw_goal_tolerance: 0.2
+    yaw_goal_tolerance: 0.15
     holonomic_robot: false
 
     path_distance_bias: 0.7
